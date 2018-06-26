@@ -33,7 +33,7 @@
       "Ctegory": "Kubernetes Specific",
       "Quries": [
         {
-          "NameKubeServices_CL": "KubeEvents_CL",
+          "Name": "KubeEvents_CL",
           "Query": "KubeEvents_CL",
           "FilterCondition": "| where TimeGenerated > ago(24h)",
           "Summarize": "| summarize count() by Computer",
